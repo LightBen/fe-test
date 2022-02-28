@@ -1,0 +1,46 @@
+:root {
+  --spacing: 20px;
+
+  --bg-1: #76a6ef;
+  --bg-2: #3f00ce;
+  --bg-1-rgba: rgba(118, 166, 239, 1);
+  --bg-2-rgba: rgba(63, 0, 206, 0.56);
+
+  --color-main: #2d589a;
+  --unvalid-primary: #f77163;
+  --valid-primary: #4bbf34;
+  --valid-secondary: #d7f741;
+
+  --font-family-primary: 'Quicksand', sans-serif;
+  --font-family-secondary: 'Raleway', sans-serif;
+  --font-size-title: 17px;
+  --font-size-primary: 14px;
+  --font-size-secondary: 11px;
+  --font-color-light: #fff;
+  --font-color-dark: var(--color-main);
+
+  --border-primary-width: 1px;
+  --border-primary-type: solid;
+  --border-primary-color: #eee;
+  --border-primary: var(--border-primary-width) var(--border-primary-type) var(--border-primary-color);
+
+  --radius-primary: 30px;
+}
+
+// Bootstrap breakpoints
+$xxs: 320px;
+$xs:  360px;
+$sm:  576px;
+$md:  768px;
+$lg:  992px;
+$xl:  1200px;
+$xxl: 1400px;
+
+// Bootstrap max breakpoints
+$xxs-max: 319.98px;
+$xs-max:  359.98px;
+$sm-max:  575.98px;
+$md-max:  767.98px;
+$lg-max:  991.98px;
+$xl-max:  1199.98px;
+$xxl-max: 1399.98px;

@@ -3,85 +3,343 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/starter.css">
-    <title>Bootstrap npm starter</title>
+    <title>Gundry MD Special Online-Only Offer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
-    <div class="col-md-8 py-5 px-3 mx-auto">
-
-      <header class="pb-3 mb-5 border-bottom">
-        <h1 class="h4">
-          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-inline-block mr-2" viewBox="0 0 118 94" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-            <span>npm starter</span>
-          </a>
-        </h1>
-      </header>
-
-      <h1>Get started with Bootstrap</h1>
-      <div class="col-lg-8 px-0">
-        <p class="lead">You've successfully loaded up the Bootstrap npm starter project! It's loaded up with <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap 4</a>, <a href="https://icons.getbootstrap.com">Bootstrap Icons</a>, and tooling for compiling our Sass and JavaScript to your needs.</p>
-        <p>If this button appears blue and the link appears purple, you've done it!</p>
-      </div>
-
-      <button type="button" class="btn btn-primary mr-3" data-toggle="modal" data-target="#exampleModal">Toggle example modal</button>
-      <a href="#" class="text-success">Example link</a>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              If you're seeing this modal after clicking the button on the page, Bootstrap's CSS and JS are both working properly.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+  <main>
+    <section class="intro">
+      <div class="container">
+        <div class="row intro-banner">
+          <div class="banner-img d-none d-lg-flex col-4 col-xl-5">
+            <img src="./assets/img/product-main.png" alt="Energy Review Product">
+          </div>
+          <div class="banner-text col-12 col-lg-8 col-xl-7">
+            <div class="intro-pretitle">Special <strong>Online-Only</strong> Offer on </div>
+            <div class="intro-title">Gundry MD <br>Energy Renew</div>
+            <div class="intro-desc">
+              <div class="desc-el">
+                <div class="desc-icon"><img src="./assets/img/alarm-clock.svg" alt="Alarm Clock"></div>
+                <div class="desc-text">Promotes all-day wakefulness and clearer thinking</div>
+              </div>
+              <div class="desc-el">
+                <div class="desc-icon"><img src="./assets/img/metabolism.svg" alt="Metabolism"></div>
+                <div class="desc-text">Helps you maintain a healthy metabolism after age 50</div>
+              </div>
+              <div class="desc-el">
+                <div class="desc-icon"><img src="./assets/img/tracking.svg" alt="Tracking"></div>
+                <div class="desc-text">Helps you recover faster from tiring activities</div>
+              </div>
+              <div class="desc-el">
+                <div class="desc-icon"><img src="./assets/img/dna.svg" alt="DNA"></div>
+                <div class="desc-text">Helps your cells defend against “age-accelerating” free radicals</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <hr class="my-5 w-25 mx-0">
-
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Adding Bootstrap Icons</h2>
-          <p><a href="https://icons.getbootstrap.com">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
-
-          <svg class="bi text-danger" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
-          </svg>
-          <svg class="bi text-dark" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles"/>
-          </svg>
-          <svg class="bi text-primary" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
-          </svg>
+    </section>
+    <section class="packages">
+      <div class="container">
+        <div class="packages-sm d-lg-none">
+          <div class="choose-package">Choose your package</div>
+          <div class="row slider">
+            <div class="slider-container">
+              <div class="my-slider">
+                <div class="slide">
+                  <div class="my-card">
+                    <div class="my-card-title">1 Jar</div>
+                    <img class="my-card-img" src="/assets/img/1-jars.jpg" alt="1 Jar">
+                    <div class="my-card-content">
+                      <div class="my-card-info">
+                        <div class="info-line info-price-reg">
+                          <div class="info-label">Regular Price</div>
+                          <div class="info-value value-unvalid">$209.85</div>
+                        </div>
+                        <div class="info-line info-price-savings">
+                          <div class="info-label">Instant Savings</div>
+                          <div class="info-value value-valid">$87.90</div>
+                        </div>
+                        <div class="info-line info-price-shipping">
+                          <div class="info-icon"><img src="/assets/img/shipping.png" alt="Shipping"></div>
+                          <div class="info-label">Shipping</div>
+                          <div class="info-value value-valid">FREE</div>
+                        </div>
+                      </div>
+                      <div class="my-card-price">
+                        <div class="price-container">
+                          <div class="price-cur">$</div>
+                          <div class="price-unit">121</div>
+                          <div class="price-dec">95</div>
+                        </div>
+                      </div>
+                      <div class="price-info">This is a one time payment</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="my-card">
+                    <div class="my-card-title">3 Jars</div>
+                    <img class="my-card-img" src="/assets/img/3-jars.jpg" alt="3 Jars">
+                    <div class="my-card-content">
+                      <div class="my-card-info">
+                        <div class="info-line info-price-reg">
+                          <div class="info-label">Regular Price</div>
+                          <div class="info-value value-unvalid">$209.85</div>
+                        </div>
+                        <div class="info-line info-price-savings">
+                          <div class="info-label">Instant Savings</div>
+                          <div class="info-value value-valid">$87.90</div>
+                        </div>
+                        <div class="info-line info-price-shipping">
+                          <div class="info-icon"><img src="/assets/img/shipping.png" alt="Shipping"></div>
+                          <div class="info-label">Shipping</div>
+                          <div class="info-value value-valid">FREE</div>
+                        </div>
+                      </div>
+                      <div class="my-card-price">
+                        <div class="price-container">
+                          <div class="price-cur">$</div>
+                          <div class="price-unit">121</div>
+                          <div class="price-dec">95</div>
+                        </div>
+                      </div>
+                      <div class="price-info">This is a one time payment</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="my-card">
+                    <div class="my-card-title">6 Jars</div>
+                    <img class="my-card-img" src="/assets/img/6-jars.jpg" alt="6 Jars">
+                    <div class="my-card-content">
+                      <div class="my-card-info">
+                        <div class="info-line info-price-reg">
+                          <div class="info-label">Regular Price</div>
+                          <div class="info-value value-unvalid">$209.85</div>
+                        </div>
+                        <div class="info-line info-price-savings">
+                          <div class="info-label">Instant Savings</div>
+                          <div class="info-value value-valid">$87.90</div>
+                        </div>
+                        <div class="info-line info-price-shipping">
+                          <div class="info-icon"><img src="/assets/img/shipping.png" alt="Shipping"></div>
+                          <div class="info-label">Shipping</div>
+                          <div class="info-value value-valid">FREE</div>
+                        </div>
+                      </div>
+                      <div class="my-card-price">
+                        <div class="price-container">
+                          <div class="price-cur">$</div>
+                          <div class="price-unit">121</div>
+                          <div class="price-dec">95</div>
+                        </div>
+                      </div>
+                      <div class="price-info">This is a one time payment</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn btn-cta">
+            <div class="btn-ico me-2"><img src="/assets/img/cart.png" alt="Cart"></div>
+            <div class="btn-text">Buy Now</div>
+          </div>
         </div>
-
-        <div class="col-md-6">
-          <h2>Guides</h2>
-          <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-          <ul class="icon-list">
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction">Bootstrap quick start guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/webpack">Bootstrap Webpack guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/build-tools">Contributing to Bootstrap</a></li>
-          </ul>
+        <div class="packages-lg d-none d-lg-flex">
+          <div class="my-card my-card-side">
+            <div class="my-card-title">100% MONEY BACK GUARANTEE</div>
+            <div class="my-card-content">
+              <img src="./assets/img/guarantee.png" alt="Guarantee logo">
+            </div>
+            <div class="my-card-footer text-uppercase">
+              If you're not 100% satisfied with your product for any reason, you're covered by our money-back guarantee
+            </div>
+          </div>
+          <div class="my-card my-card-main">
+            <div class="my-card-inner">
+              <div class="my-card-title">Choose your package</div>
+              <div class="my-card-content">
+                <div class="my-tabs">
+                  <ul class="nav nav-pills my-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">1 Jar</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active mx-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">3 Jars</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">6 Jars</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <div class="my-card-info">
+                        <div class="d-flex">
+                          <div class="info-line info-price-reg">
+                            <div class="info-label mb-2">Regular Price</div>
+                            <div class="info-value value-unvalid">$209.85</div>
+                          </div>
+                          <div class="info-line info-price-discount">
+                            <div class="info-label mb-2">Today's Discount</div>
+                            <div class="info-value value-valid">$12.90</div>
+                          </div>
+                        </div>
+                        <div class="d-flex">
+                          <div class="info-line info-price-shipping">
+                            <div class="info-label mb-2">Instant Savings</div>
+                            <div class="info-value value-valid">$87.90</div>
+                          </div>
+                          <div class="info-line info-price-shipping">
+                            <div class="d-flex align-items-center mb-2">
+                              <div class="info-icon"><img src="/assets/img/shipping.png" alt="Shipping"></div>
+                              <div class="info-label">Shipping</div>
+                            </div>
+                            <div class="info-value value-valid">FREE</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="my-card-price">
+                        <div class="price-container">
+                          <div class="price-cur">$</div>
+                          <div class="price-unit">79</div>
+                          <div class="price-dec">95</div>
+                        </div>
+                      </div>
+                      <div class="price-info">(This is a one time payment)</div>
+                    </div>
+                    <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                      <div class="my-card-info">
+                        <div class="d-flex">
+                          <div class="info-line info-price-reg">
+                            <div class="info-label mb-2">Regular Price</div>
+                            <div class="info-value value-unvalid">$209.85</div>
+                          </div>
+                          <div class="info-line info-price-discount">
+                            <div class="info-label mb-2">Today's Discount</div>
+                            <div class="info-value value-valid">$12.90</div>
+                          </div>
+                        </div>
+                        <div class="d-flex">
+                          <div class="info-line info-price-shipping">
+                            <div class="info-label mb-2">Instant Savings</div>
+                            <div class="info-value value-valid">$87.90</div>
+                          </div>
+                          <div class="info-line info-price-shipping">
+                            <div class="d-flex align-items-center mb-2">
+                              <div class="info-icon"><img src="/assets/img/shipping.png" alt="Shipping"></div>
+                              <div class="info-label">Shipping</div>
+                            </div>
+                            <div class="info-value value-valid">FREE</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="my-card-price">
+                        <div class="price-container">
+                          <div class="price-cur">$</div>
+                          <div class="price-unit">121</div>
+                          <div class="price-dec">95</div>
+                        </div>
+                      </div>
+                      <div class="price-info">(This is a one time payment)</div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                      <div class="my-card-info">
+                        <div class="d-flex">
+                          <div class="info-line info-price-reg">
+                            <div class="info-label mb-2">Regular Price</div>
+                            <div class="info-value value-unvalid">$209.85</div>
+                          </div>
+                          <div class="info-line info-price-discount">
+                            <div class="info-label mb-2">Today's Discount</div>
+                            <div class="info-value value-valid">$12.90</div>
+                          </div>
+                        </div>
+                        <div class="d-flex">
+                          <div class="info-line info-price-shipping">
+                            <div class="info-label mb-2">Instant Savings</div>
+                            <div class="info-value value-valid">$87.90</div>
+                          </div>
+                          <div class="info-line info-price-shipping">
+                            <div class="d-flex align-items-center mb-2">
+                              <div class="info-icon"><img src="/assets/img/shipping.png" alt="Shipping"></div>
+                              <div class="info-label">Shipping</div>
+                            </div>
+                            <div class="info-value value-valid">FREE</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="my-card-price">
+                        <div class="price-container">
+                          <div class="price-cur">$</div>
+                          <div class="price-unit">300</div>
+                          <div class="price-dec">00</div>
+                        </div>
+                      </div>
+                      <div class="price-info">(This is a one time payment)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="btn btn-cta mb-3">
+                  <div class="btn-ico me-2"><img src="/assets/img/cart.png" alt="Cart"></div>
+                  <div class="btn-text">Buy Now</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="my-card my-card-side">
+            <div class="my-card-title">100% Pure</div>
+            <div class="my-card-content">
+              <ul class="checklist">
+                <li>Greater savings</li>
+                <li>Lock in low price</li>
+                <li>Guaranteed availability</li>
+                <li>Cancel anytime</li>
+              </ul>
+            </div>
+            <div class="my-card-footer">
+              Simply mix 1 scoop of the passionfruit-hibiscus powder into 8 fl. oz. of water and enjoy!
+            </div>
+          </div>
         </div>
       </div>
-
-      <hr class="my-5">
-
-      <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
+    </section>
+  </main>
+  <footer class="d-lg-none">
+    <div class="container">
+      <div id="footer-content">
+        <div id="footer-title">100% Money Back Guarantee</div>
+        <img src="./assets/img/guarantee.png" alt="Guarantee logo">
+        <div id="footer-desc">We work hard to formulate the most advanced products on the market. Our 90-Day Customer Satisfaction Guarantee is designed to give you ample opportunity to experience optimal results from your product, completely risk-free.</div>
+      </div>
     </div>
+  </footer>
 
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script type="module" src="assets/js/starter.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script>
+    const slider = tns({
+      container: '.my-slider',
+      items: 1,
+      gutter: 30,
+      slideBy: 'page',
+      speed: 500,
+      autoplay: true,
+      controlsPosition: 'bottom',
+      controlsText: ["<", ">"],
+      navPosition: 'bottom',
+      autoPlayText: false,
+      autoplayHoverPause: true,
+      autoPlayButton: false,
+      autoplayButtonOutput: false,
+    });
+  </script>
   </body>
 </html>
